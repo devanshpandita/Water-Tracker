@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1c1c1c; /* Dark background */
+    color: #fff; /* Light text color */
+}
+
+.container {
+    background-color: #2c2c2c; /* Darker container background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input, button {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#progress-container {
+    margin-top: 20px;
+    background-color: #3d3d3d; /* Darker progress bar background */
+    height: 20px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+#progress-bar {
+    background-color: #4CAF50;
+    height: 100%;
+    border-radius: 8px;
+    transition: width 0.5s ease; /* Smooth transition for the slider */
+}
+
+#progress-slider {
+    position: absolute;
+    height: 100%;
+    width: 20px; /* Width of the water-like slider */
+    background-color: #66b2ff; /* Water-like color */
+    border-radius: 8px;
+    transition: left 0.5s ease; /* Smooth transition for the slider */
+}
+
+#progress-text {
+    margin-top: 10px;
+    font-size: 18px;
+}
